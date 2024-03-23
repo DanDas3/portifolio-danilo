@@ -1,0 +1,33 @@
+.img-profile {
+    float: left;
+    height: 160px;
+    width: 160px;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-portifolio {
+    overflow: scroll;
+    max-height: 50vh;
+}
+
+.paleta-1 {
+    background-color: #C4B7CB;
+}
+
+.paleta-2 {
+    background-color: #BBC7CE;
+}
+
+.paleta-3 {
+    background-color: #BFEDEF;
+}
+
+.paleta-4 {
+    background-color: #98E2C6;
+}
+
+.paleta-5 {
+    background-color: #545C52;
+}
