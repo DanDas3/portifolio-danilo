@@ -49,17 +49,17 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-m-12">
-                    <form>
+                    <form id="formulario-contato">
                         <div class="form-group">
                             <label>Nome</label>
-                            <input class="form-control" type="text" placeholder="Nome" />
+                            <input id="nome" class="form-control" type="text" placeholder="Nome" />
                             <label>E-mail</label>
-                            <input class="form-control" type="email" placeholder="E-mail" />
+                            <input id="email" class="form-control" type="email" placeholder="E-mail" />
                             <label>Assunto</label>
-                            <textarea class="form-control" type="text" placeholder="Nome"> </textarea>
+                            <textarea id="conteudo" class="form-control" type="text" placeholder="Nome"> </textarea>
                             <div class="form-group justify-content-end">
                                 <div class="col-md-2">
-                                    <button class="form-control btn btn-primary" type="button">Enviar</button>
+                                    <button class="form-control btn btn-primary" type="submit">Enviar</button>
                                 </div>
                             </div>
                         </div>
@@ -83,5 +83,6 @@
     </div>
 </footer>
 <script src="/dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/contato.js"></script>
 </body>
 </html>
