@@ -1,8 +1,8 @@
 export const lerMensagensLocaStorage = () => {
-    const mensagensLocalStorage= localStorage.getItem('mensagens')
+    const mensagensLocalStorage= localStorage.getItem('mensagens');
 
     if(mensagensLocalStorage === null) {
-        return []
+        return [];
     }
-    return JSON.parse(mensagensLocalStorage)
+    return JSON.parse(mensagensLocalStorage);
 }

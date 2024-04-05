@@ -36,15 +36,15 @@ export const exibirLista = (lista, tabela) => {
 
 var limparMensagensBtn = document.getElementById('limpar-mensagens');
 limparMensagensBtn.addEventListener('click', function() {
-    limparTabela()
-    limparMensagensLocalStorage()
-    exibirLista([],table)
+    limparTabela();
+    limparMensagensLocalStorage();
+    exibirLista([],table);
 });
 
 const limparTabela = () => {
-    table.innerHTML = ''
+    table.innerHTML = '';
 }
 
 const limparMensagensLocalStorage = () => {
-    localStorage.removeItem('mensagens')
+    localStorage.removeItem('mensagens');
 }
